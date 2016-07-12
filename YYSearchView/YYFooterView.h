@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YYFooterView.h
 //  YYSearchView
 //
 //  Created by mac on 16/7/12.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface YYFooterView : UICollectionReusableView
 
+@property (strong,nonatomic)void (^YYCleanBut)(void);
 
 @end
-

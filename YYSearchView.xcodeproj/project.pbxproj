@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		04FFE14E1D34910700683B4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFE14D1D34910700683B4D /* main.m */; };
 		04FFE1511D34910700683B4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFE1501D34910700683B4D /* AppDelegate.m */; };
-		04FFE1541D34910700683B4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFE1531D34910700683B4D /* ViewController.m */; };
 		04FFE1571D34910700683B4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FFE1551D34910700683B4D /* Main.storyboard */; };
 		04FFE1591D34910700683B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FFE1581D34910700683B4D /* Assets.xcassets */; };
 		04FFE15C1D34910700683B4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FFE15A1D34910700683B4D /* LaunchScreen.storyboard */; };
 		04FFE1671D34910700683B4D /* YYSearchViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFE1661D34910700683B4D /* YYSearchViewTests.m */; };
 		04FFE1721D34910700683B4D /* YYSearchViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFE1711D34910700683B4D /* YYSearchViewUITests.m */; };
+		04FFE1821D34913D00683B4D /* YYSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFE1811D34913D00683B4D /* YYSearchView.m */; };
+		04FFE1841D34914C00683B4D /* YYSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FFE1831D34914C00683B4D /* YYSearchView.xib */; };
+		04FFE1881D34955A00683B4D /* YYSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFE1861D34955A00683B4D /* YYSearchViewController.m */; };
+		04FFE1891D34955A00683B4D /* YYSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FFE1871D34955A00683B4D /* YYSearchViewController.xib */; };
+		04FFE18D1D349A6600683B4D /* YYCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFE18C1D349A6600683B4D /* YYCollectionCell.m */; };
+		04FFE1901D349BBD00683B4D /* YYCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFE18F1D349BBD00683B4D /* YYCoreData.m */; };
+		04FFE1941D349D0C00683B4D /* YYHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFE1921D349D0C00683B4D /* YYHeaderView.m */; };
+		04FFE1951D349D0C00683B4D /* YYHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FFE1931D349D0C00683B4D /* YYHeaderView.xib */; };
+		04FFE1991D349E2900683B4D /* YYFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFE1971D349E2900683B4D /* YYFooterView.m */; };
+		04FFE19A1D349E2900683B4D /* YYFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FFE1981D349E2900683B4D /* YYFooterView.xib */; };
+		04FFE19E1D34A21500683B4D /* SearchHotModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFE19D1D34A21500683B4D /* SearchHotModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +49,6 @@
 		04FFE14D1D34910700683B4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04FFE14F1D34910700683B4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04FFE1501D34910700683B4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04FFE1521D34910700683B4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04FFE1531D34910700683B4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		04FFE1561D34910700683B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04FFE1581D34910700683B4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04FFE15B1D34910700683B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +59,24 @@
 		04FFE16D1D34910700683B4D /* YYSearchViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYSearchViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FFE1711D34910700683B4D /* YYSearchViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYSearchViewUITests.m; sourceTree = "<group>"; };
 		04FFE1731D34910700683B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FFE1801D34913D00683B4D /* YYSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSearchView.h; sourceTree = "<group>"; };
+		04FFE1811D34913D00683B4D /* YYSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSearchView.m; sourceTree = "<group>"; };
+		04FFE1831D34914C00683B4D /* YYSearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYSearchView.xib; sourceTree = "<group>"; };
+		04FFE1851D34955A00683B4D /* YYSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSearchViewController.h; sourceTree = "<group>"; };
+		04FFE1861D34955A00683B4D /* YYSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSearchViewController.m; sourceTree = "<group>"; };
+		04FFE1871D34955A00683B4D /* YYSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYSearchViewController.xib; sourceTree = "<group>"; };
+		04FFE18B1D349A6600683B4D /* YYCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCollectionCell.h; sourceTree = "<group>"; };
+		04FFE18C1D349A6600683B4D /* YYCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCollectionCell.m; sourceTree = "<group>"; };
+		04FFE18E1D349BBD00683B4D /* YYCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCoreData.h; sourceTree = "<group>"; };
+		04FFE18F1D349BBD00683B4D /* YYCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCoreData.m; sourceTree = "<group>"; };
+		04FFE1911D349D0C00683B4D /* YYHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHeaderView.h; sourceTree = "<group>"; };
+		04FFE1921D349D0C00683B4D /* YYHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYHeaderView.m; sourceTree = "<group>"; };
+		04FFE1931D349D0C00683B4D /* YYHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYHeaderView.xib; sourceTree = "<group>"; };
+		04FFE1961D349E2900683B4D /* YYFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFooterView.h; sourceTree = "<group>"; };
+		04FFE1971D349E2900683B4D /* YYFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFooterView.m; sourceTree = "<group>"; };
+		04FFE1981D349E2900683B4D /* YYFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYFooterView.xib; sourceTree = "<group>"; };
+		04FFE19C1D34A21500683B4D /* SearchHotModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchHotModel.h; sourceTree = "<group>"; };
+		04FFE19D1D34A21500683B4D /* SearchHotModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchHotModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +127,16 @@
 		04FFE14B1D34910700683B4D /* YYSearchView */ = {
 			isa = PBXGroup;
 			children = (
+				04FFE17F1D34911800683B4D /* YYSearch */,
 				04FFE14F1D34910700683B4D /* AppDelegate.h */,
 				04FFE1501D34910700683B4D /* AppDelegate.m */,
-				04FFE1521D34910700683B4D /* ViewController.h */,
-				04FFE1531D34910700683B4D /* ViewController.m */,
+				04FFE1851D34955A00683B4D /* YYSearchViewController.h */,
+				04FFE1861D34955A00683B4D /* YYSearchViewController.m */,
+				04FFE1871D34955A00683B4D /* YYSearchViewController.xib */,
+				04FFE18E1D349BBD00683B4D /* YYCoreData.h */,
+				04FFE18F1D349BBD00683B4D /* YYCoreData.m */,
+				04FFE19B1D34A20900683B4D /* Class */,
+				04FFE18A1D349A4100683B4D /* View */,
 				04FFE1551D34910700683B4D /* Main.storyboard */,
 				04FFE1581D34910700683B4D /* Assets.xcassets */,
 				04FFE15A1D34910700683B4D /* LaunchScreen.storyboard */,
@@ -138,6 +170,40 @@
 				04FFE1731D34910700683B4D /* Info.plist */,
 			);
 			path = YYSearchViewUITests;
+			sourceTree = "<group>";
+		};
+		04FFE17F1D34911800683B4D /* YYSearch */ = {
+			isa = PBXGroup;
+			children = (
+				04FFE1801D34913D00683B4D /* YYSearchView.h */,
+				04FFE1811D34913D00683B4D /* YYSearchView.m */,
+				04FFE1831D34914C00683B4D /* YYSearchView.xib */,
+			);
+			name = YYSearch;
+			sourceTree = "<group>";
+		};
+		04FFE18A1D349A4100683B4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04FFE18B1D349A6600683B4D /* YYCollectionCell.h */,
+				04FFE18C1D349A6600683B4D /* YYCollectionCell.m */,
+				04FFE1911D349D0C00683B4D /* YYHeaderView.h */,
+				04FFE1921D349D0C00683B4D /* YYHeaderView.m */,
+				04FFE1931D349D0C00683B4D /* YYHeaderView.xib */,
+				04FFE1961D349E2900683B4D /* YYFooterView.h */,
+				04FFE1971D349E2900683B4D /* YYFooterView.m */,
+				04FFE1981D349E2900683B4D /* YYFooterView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		04FFE19B1D34A20900683B4D /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				04FFE19C1D34A21500683B4D /* SearchHotModel.h */,
+				04FFE19D1D34A21500683B4D /* SearchHotModel.m */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +309,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FFE1841D34914C00683B4D /* YYSearchView.xib in Resources */,
 				04FFE15C1D34910700683B4D /* LaunchScreen.storyboard in Resources */,
+				04FFE1891D34955A00683B4D /* YYSearchViewController.xib in Resources */,
+				04FFE19A1D349E2900683B4D /* YYFooterView.xib in Resources */,
 				04FFE1591D34910700683B4D /* Assets.xcassets in Resources */,
 				04FFE1571D34910700683B4D /* Main.storyboard in Resources */,
+				04FFE1951D349D0C00683B4D /* YYHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +340,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FFE1541D34910700683B4D /* ViewController.m in Sources */,
+				04FFE19E1D34A21500683B4D /* SearchHotModel.m in Sources */,
+				04FFE1821D34913D00683B4D /* YYSearchView.m in Sources */,
+				04FFE1941D349D0C00683B4D /* YYHeaderView.m in Sources */,
 				04FFE1511D34910700683B4D /* AppDelegate.m in Sources */,
+				04FFE1901D349BBD00683B4D /* YYCoreData.m in Sources */,
+				04FFE18D1D349A6600683B4D /* YYCollectionCell.m in Sources */,
+				04FFE1991D349E2900683B4D /* YYFooterView.m in Sources */,
+				04FFE1881D34955A00683B4D /* YYSearchViewController.m in Sources */,
 				04FFE14E1D34910700683B4D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
